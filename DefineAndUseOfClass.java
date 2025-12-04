@@ -1,9 +1,9 @@
-class Dog {
+class Dogs {
     String Name;
     String Breed;
     String color;
     int age;
-    public Dog(String Name, String Breed, String color, int age){
+    public Dogs(String Name, String Breed, String color, int age){
         this.Name = Name;
         this.Breed = Breed;
         this.color = color;
@@ -28,7 +28,7 @@ class Dog {
         return "Name is:" +Name+ "\nBreed age and color are:" +Breed+ " " +age+ " " +color;
     }
     public static void main(String[] args){
-        Dog tuffy = new Dog("tuffy", "papillon", "black", 5 );
+        Dogs tuffy = new Dogs("tuffy", "papillon", "black", 5 );
         System.out.println(tuffy);
 
     }
